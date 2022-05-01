@@ -6,7 +6,7 @@ public class StringOperationsTest {
     @Test
     public void printStringTest() {
         StringOperations s1 = new StringOperations();
-        assertEquals("helo", s1.printString("hello"));
+        assertEquals("hello", s1.printString("hello"));
 
     }
 }
